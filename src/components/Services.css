@@ -1,0 +1,16 @@
+.service-image-wrapper {
+  position: relative;
+  overflow: hidden;
+}
+
+.service-image-wrapper::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(180deg, rgba(26, 160, 206, 0) 0%, rgba(26, 160, 206, 0.4) 100%);
+  z-index: 1;
+  pointer-events: none;
+}

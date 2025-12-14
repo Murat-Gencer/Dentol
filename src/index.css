@@ -1,0 +1,11 @@
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  scroll-margin-top: 100px;
+}
+
+section {
+  border-radius: 2rem;
+}
