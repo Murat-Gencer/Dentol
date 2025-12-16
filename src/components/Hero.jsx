@@ -7,7 +7,7 @@ export default function Hero() {
       <div className="absolute inset-0 bg-gradient-to-br from-primary-light via-white to-white dark:from-slate-900 dark:via-slate-800 dark:to-background-dark -z-10"></div>
       <div className="flex flex-col items-center lg:items-start text-center lg:text-left gap-6 lg:w-1/2">
         <span className="text-sm font-bold uppercase tracking-widest text-secondary dark:text-secondary">DENTOL DİŞ KLİNİĞİ</span>
-        <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold leading-tight tracking-tighter">Gülüşünüzü Aydınlatın, Hayatınızı Aydınlatın</h1>
+        <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold leading-tight tracking-tighter">GÜLÜŞ BİR KARARDIR</h1>
         <p className="text-text-muted-light dark:text-text-muted-dark text-lg md:text-xl font-normal leading-relaxed max-w-xl">Sıcak bir ortamda kapsamlı ve nazik diş bakımı hizmeti sunuyoruz. Ömür boyu sürecek sağlıklı ve güzel bir gülüşe sahip olmanıza yardımcı olalım.</p>
         <div className="flex flex-col sm:flex-row items-center gap-4 mt-6">
           <a href="tel:+902582631020" className="flex min-w-[180px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-14 px-8 bg-primary text-slate-50 text-base font-bold leading-normal tracking-wide shadow-lg hover:shadow-xl hover:bg-opacity-90 transform hover:scale-105 transition-all duration-300">

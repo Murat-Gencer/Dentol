@@ -51,9 +51,9 @@ export default function Contact() {
                 <h4 className="text-lg font-bold text-text-light dark:text-text-dark mb-1">Çalışma Saatleri</h4>
                 <div className="grid grid-cols-[100px_1fr] gap-x-4 gap-y-1 text-text-muted-light dark:text-text-muted-dark">
                   <span>Hafta İçi:</span>
-                  <span>09:00 - 19:00</span>
+                  <span>08:30 - 00:00</span>
                   <span>Cumartesi:</span>
-                  <span>10:00 - 16:00</span>
+                  <span>08:30 - 00:00</span>
                   <span>Pazar:</span>
                   <span>Kapalı</span>
                 </div>

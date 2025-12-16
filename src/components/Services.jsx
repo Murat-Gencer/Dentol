@@ -37,8 +37,8 @@ export default function Services() {
     },
     {
       id: 4,
-      title: 'Porselen Laminalar',
-      description: 'İnce porselen kaplamalarla gülüşünüzü yeniden şekillendiriyor, doğal ve estetik bir görünüm sağlıyoruz.',
+      title: 'Zirkonyum kaplamalar',
+      description: 'İnce Zirkonyum kaplamalarla gülüşünüzü yeniden şekillendiriyor, doğal ve estetik bir görünüm sağlıyoruz.',
       image: 'https://lh3.googleusercontent.com/aida-public/AB6AXuB9H1O2Vc8jfHTBz_FL1DrpOM-AGbY6qKkZ7cj38SyM6pRyqEmhUF0BaFMTfkIruIdS_G6Fhgde7rWC_e1eugj4g90CfXgQKd5RK7dPtFFOaGZT8xs9-c1Kfpqjn6Fh0elDfke2vCV--JdgHzO0vKSEqKj4dqJctOPiVoNM3E9sgGEp7jIbyPLX-XcJQnCkuxd53USe0hiNGhtACEc_b111rYHm4AP-pAhGZwROp4sKeFCaWTxDuaHjFys8L2erLaRJx-alcDnNcK4',
       category: 'Estetik Diş Hekimliği'
     },

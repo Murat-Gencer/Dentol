@@ -1,12 +1,12 @@
 import React from 'react';
-import aboutImage from '../assets/NedenBiz.png';
+import aboutImage from '../assets/NedenBiz3.png';
 
 export default function About() {
   const features = [
     {
       icon: 'verified',
-      title: 'Deneyimli Ekip',
-      description: 'Diş hekimlerimiz yılların deneyimine sahiptir ve sürekli öğrenmeye adanmıştır.'
+      title: 'Dinamik Ekip',
+      description: 'Diş hekimlerimiz sizlere daha iyi hizmet verebilmek için kendilerini sürekli öğrenmeye adanmıştır.'
     },
     {
       icon: 'science',
