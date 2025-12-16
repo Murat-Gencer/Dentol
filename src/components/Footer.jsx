@@ -40,7 +40,7 @@ export default function Footer() {
         </div>
       </div>
       <div className="border-t border-slate-300 dark:border-slate-700 pt-6 flex flex-col sm:flex-row items-center justify-between gap-4">
-        <p className="text-text-muted-light dark:text-text-muted-dark text-sm">© 2024 Dentol Diş Kliniği. Tüm hakları saklıdır.</p>
+        <p className="text-text-muted-light dark:text-text-muted-dark text-sm">© 2024 DENTOL Diş Polikliniği. Tüm hakları saklıdır.</p>
         <div className="flex gap-6">
           <a className="text-text-muted-light dark:text-text-muted-dark hover:text-primary dark:hover:text-secondary transition-colors" href="#" aria-label="Facebook">
             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 16 16">

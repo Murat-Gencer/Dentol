@@ -1,5 +1,5 @@
 import React from 'react';
-import aboutImage from '../assets/NedenBiz3.png';
+import aboutImage from '../assets/NedenBiz4.png';
 
 export default function About() {
   const features = [
