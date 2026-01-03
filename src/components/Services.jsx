@@ -63,8 +63,9 @@ export default function Services() {
     : services.filter(service => service.category === activeCategory);
 
   return (
-    <section id="hizmetler" className="px-4 py-20 md:px-10 md:py-24 bg-slate-50 dark:bg-slate-900">
-      <main className="flex flex-col items-center px-4 sm:px-8 lg:px-16 py-10 md:py-16">
+    <section id="hizmetler" className="relative px-4 py-10 md:px-10 md:py-12 overflow-hidden">
+      <div className="absolute inset-0 bg-gradient-to-br from-primary-light via-white to-[#d6ad4c]/5 dark:from-slate-900 dark:via-slate-800 dark:to-background-dark -z-10"></div>
+      <main className="flex flex-col items-center px-4 sm:px-8 lg:px-16 py-6 md:py-8">
         <div className="layout-content-container flex flex-col w-full max-w-5xl gap-10 md:gap-16">
           <section className="@container">
             <div className="@[480px]:p-0">
@@ -86,8 +87,8 @@ export default function Services() {
                   onClick={() => setActiveCategory(category)}
                   className={`flex h-10 shrink-0 cursor-pointer items-center justify-center gap-x-2 rounded-full pl-4 pr-4 transition-all duration-300 ${
                     activeCategory === category 
-                      ? 'bg-primary text-slate-50' 
-                      : 'bg-slate-200 dark:bg-slate-800 text-slate-800 dark:text-slate-200 hover:bg-primary/20 dark:hover:bg-primary/30'
+                      ? 'bg-[#d6ad4c] text-slate-50' 
+                      : 'bg-slate-200 dark:bg-slate-800 text-slate-800 dark:text-slate-200 hover:bg-[#d6ad4c]/20 dark:hover:bg-[#d6ad4c]/30'
                   }`}
                 >
                   <p className="text-sm font-medium leading-normal">{category}</p>
@@ -103,7 +104,7 @@ export default function Services() {
                 <div className="p-4 flex flex-col flex-grow">
                   <p className="text-slate-900 dark:text-slate-50 text-lg font-bold leading-normal">{service.title}</p>
                   <p className="text-slate-600 dark:text-slate-400 text-sm font-normal leading-normal mt-1 mb-3 flex-grow">{service.description}</p>
-                  <a className="text-primary text-sm font-bold leading-normal hover:underline" href="#">Detaylı Bilgi</a>
+                  <a className="text-[#d6ad4c] text-sm font-bold leading-normal hover:underline" href="#">Detaylı Bilgi</a>
                 </div>
               </div>
             ))}

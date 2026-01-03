@@ -15,7 +15,7 @@ function App() {
           <div className="layout-content-container flex flex-col w-full max-w-[1200px] flex-1">
             <Header />
             <br/>
-            <main className="flex-grow">
+            <main className="flex-grow flex flex-col gap-16 md:gap-20">
               <Hero />
               <Services />
               <About />
